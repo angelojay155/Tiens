@@ -1,0 +1,170 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiens</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <script>
+    var Tiens_Perú_Piura_Sullana_Compra_aqui = window.location.pathname.split('/').pop();
+    
+    document.getElementById("enlace").href = Tiens_Perú_Piura_Sullana_Compra_aqui ;
+    </script>
+    <header class="header">
+        <video autoplay loop muted class="back-video" >
+            <source src="images/Tiens.mp4" type="video/mp4">
+        </video>
+
+        <div class="menu container">
+
+            <a href="#" class="logo">TIENS</a>
+            <input type="checkbox" id="menu">
+            <label for="menu">
+                <img src="images/menu.png" class="menu-icono" alt="menu">
+            </label>
+            <nav class="navbar">
+                <ul> 
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Servicio</a></li>
+                    <li><a href="#">Producto</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+        </div> 
+
+        <div class="header-content container">
+            <div class="header-txt">               
+                <h1> <span>Tiens</span> <br>Compra aqui </h1>
+                <div class="buttons">
+                    <a href="#" class="btn-1">Horario</a>
+                    <a href="#" class="btn-1">Productos</a>
+                </div>
+            </div>
+        </div>   
+    </header>
+
+    <section class="services container"> 
+
+        <div class="service">
+            <img src="images/Calcio.png" alt="">
+            <h3>Calcio </h3>
+        </div>
+    
+        <div class="service">
+            <img src="images/pasta.png" alt="">
+            <h3>Pasta de dientes</h3>
+        </div>
+
+        <div class="service">
+            <img src="images/pasta.png" alt="">
+            <h3>lorem</h3>
+        </div>
+    
+    </section>
+
+    <section class="about">
+
+        <div class="about-content container">
+
+            <div class="about-txt">
+                <span> Tiens</span>
+                <h2>Todo sobre Tiens</h2>
+                <hr>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed ac placerat tellus. 
+                    Aenean tristique nunc libero, et suscipit ligula volutpat eget. Proin mollis,neque
+                    et lobortis ultricies, est augue placerat turpis, vitae sodales risus mauris vel
+                    nibh. Nullam eros elit, consectetur eleifend euismod et, varius eget  ex. Duis finibus
+                    condimentum sapien et tincidunt.Etiam non vehicula nisl. Donec ultrices tristique libero,
+                    vitae congue velit ornare sit amet. Vivamus imperdiet nibh nec tincidunt commodo.
+                </p>
+                <br>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed ac placerat tellus. 
+                    Aenean tristique nunc libero, et suscipit ligula volutpat eget. Proin mollis,neque
+                    et lobortis ultricies, est augue placerat turpis, vitae sodales risus mauris vel
+                    nibh. Nullam eros elit, consectetur eleifend euismod et, varius eget  ex. Duis finibus
+                    condimentum sapien et tincidunt.Etiam non vehicula nisl. Donec ultrices tristique libero,
+                    vitae congue velit ornare sit amet. Vivamus imperdiet nibh nec tincidunt commodo.
+                </p>
+            </div>
+            <div class="about-img">
+                <img src="images/Calcio.png" alt="">
+            </div>
+        
+        </div>
+    
+    </section>
+    
+    <section class="testimonial">
+        <span>Tiens</span>
+        <h2>Contactanos</h2>
+        
+        <div class="testimonial-content container">
+            
+            <div class="testimonial-1">
+                <img class="face" src="images/Calcio.png" alt="">
+                <h4>lorem impsum</h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed ac placerat tellus. 
+                    Aenean tristique nunc libero, et suscipit ligula volutpat eget. Proin mollis,neque
+                    et lobortis ultricies, est augue placerat turpis, vitae sodales risus mauris vel
+                    nibh. Nullam eros elit, consectetur eleifend euismod et, varius eget  ex. Duis finibus
+                    condimentum sapien et tincidunt.Etiam non vehicula nisl. Donec ultrices tristique libero,
+                    vitae congue velit ornare sit amet. Vivamus imperdiet nibh nec tincidunt commodo.
+                </p>
+                
+            </div>
+            
+            <div class="testimonial-1">
+                <img class="face" src="images/Calcio.png" alt="">
+                <h4>lorem impsum</h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed ac placerat tellus. 
+                    Aenean tristique nunc libero, et suscipit ligula volutpat eget. Proin mollis,neque
+                    et lobortis ultricies, est augue placerat turpis, vitae sodales risus mauris vel
+                    nibh. Nullam eros elit, consectetur eleifend euismod et, varius eget  ex. Duis finibus
+                    condimentum sapien et tincidunt.Etiam non vehicula nisl. Donec ultrices tristique libero,
+                    vitae congue velit ornare sit amet. Vivamus imperdiet nibh nec tincidunt commodo.
+                </p>
+                
+            </div>
+        </div>
+    </section>
+
+    <section class="information container">
+
+        <div class="information-txt">
+            <span>Seccion</span>
+            <h2>Escribenos</h2>
+            <hr>
+                <form action="enviar_formulario.php" method="post">
+                    <input type="text" name="nombre" placeholder="Nombre">
+                    <input type="email" name="correo" placeholder="Correo">
+                    <textarea name="comentario" placeholder="Comentario"></textarea>
+                    <button type="submit" class="btn-1">Enviar</button>
+                </form>
+        </div>
+
+        <div class="information-img">
+            <video controls class="f1">
+                <source src="images/Tiens 1.mp4" type="video/mp4">
+            </video>
+        </div>
+
+    </section>
+
+        <footer class="footer">
+
+            <div class="footer-content container">
+
+            </div>
+
+        </footer>
+
+</body>
+</html>
